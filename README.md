@@ -6,6 +6,13 @@ npm run safe-dist
 
 npm run dist
 
+#restar config:
+pm2 restart start
+
+# Restar MongoDB
+sudo systemctl start mongod
+
+
 lÔI RPM I
 npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For
 more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
