@@ -9,7 +9,7 @@ npm run dist
 #restar config:
 pm2 restart start
 
-# Restar MongoDB
+#Restar MongoDB
 sudo systemctl start mongod
 
 
